@@ -4,46 +4,46 @@
 ☑ - done, 🔲 - not
 
 ---------------------------
-🔲 [YouTube course Action RPG from HeartBeast](https://youtube.com/playlist?list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a&si=Rf_YCEWO8bt2N5iA)
+* 🔲 [YouTube course Action RPG from HeartBeast](https://youtube.com/playlist?list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a&si=Rf_YCEWO8bt2N5iA)
 
-🔲 Guess the number
+1. 🔲 Guess the number
 
-🔲 The Gallows
+2. 🔲 The Gallows
 
-🔲 Memorizing cards
+3. 🔲 Memorizing cards
 
-🔲 Snake
+4. 🔲 Snake
 
-🔲 Tic-tac-toe
+5. 🔲 Tic-tac-toe
 
-🔲 Simon
+6. 🔲 Simon
 
-🔲 Beat the mole
+7. 🔲 Visual Novel
 
-🔲 Breakout
+8. 🔲 Breakout
 
-🔲 Minesweeper
+9. 🔲 Minesweeper
 
-🔲 Asteroids
+10. 🔲 Asteroids
 
-🔲 Platformer
+11. 🔲 Platformer
 
-🔲 Space Invaders
+12. 🔲 Space Invaders
 
-🔲 Ping Pong
+13. 🔲 Ping Pong
 
-🔲 Tower Defense
+14. 🔲 Tower Defense
 
-🔲 Blackjack
+15. 🔲 Blackjack
 
-🔲 Flappy Bird
+16. 🔲 Flappy Bird
 
-🔲 Puzzles
+17. 🔲 Puzzles
 
-🔲 Races
+18. 🔲 Races
 
-🔲 Space Shooter
+19. 🔲 Space Shooter
 
-🔲 RPG Battle
+20. 🔲 RPG Battle
 
-🔲 Rouge-like
+21. 🔲 Rouge-like
