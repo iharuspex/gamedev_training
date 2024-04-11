@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://clx1vwgb6qge5"]
+
+[ext_resource type="Texture2D" uid="uid://dnvvryj6paq4u" path="res://art/Notebook-Cage-1.jpg" id="1_8hg7i"]
+[ext_resource type="Theme" uid="uid://i6hkp7deyrnl" path="res://ui_theme.tres" id="2_o3gqd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3iors"]
+
+[node name="Control" type="Control"]
+custom_minimum_size = Vector2(1152, 648)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_8hg7i")
+expand_mode = 5
+
+[node name="GameName" type="Label" parent="."]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 16.0
+offset_right = 440.0
+offset_bottom = 176.0
+theme = ExtResource("2_o3gqd")
+text = "Виселица"
+
+[node name="GameWord" type="Label" parent="."]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 280.0
+offset_right = 1021.0
+offset_bottom = 460.0
+theme = ExtResource("2_o3gqd")
+theme_override_font_sizes/font_size = 150
+text = "_________"
+horizontal_alignment = 1
+
+[node name="Gallow" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_3iors")
