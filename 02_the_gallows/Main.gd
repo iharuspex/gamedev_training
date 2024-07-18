@@ -7,14 +7,17 @@ var player_status = 0
 var secret_words = [
 	"ПРИВЕТ",
 	"ВОЛОКНО",
-	"ОБОЛОНЬ"
+	"ОБОЛОНЬ",
+	"ЛАСТОЧКА",
+	"КРАПИВА",
+	"УДУШЬЕ"
 ]
 
 var secret_word = ""
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	secret_word = secret_words[randi() % 3]
+	secret_word = secret_words[randi() % secret_words.size()]
 	print(secret_word)
 	var char_num = secret_word.length()
 	$GameWord.text = ""
