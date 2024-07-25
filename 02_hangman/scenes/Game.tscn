@@ -1,0 +1,91 @@
+[gd_scene load_steps=12 format=3 uid="uid://clx1vwgb6qge5"]
+
+[ext_resource type="Script" path="res://scenes/Game.gd" id="1_sx2sd"]
+[ext_resource type="Texture2D" uid="uid://dnvvryj6paq4u" path="res://art/background.jpg" id="2_xm1av"]
+[ext_resource type="Theme" uid="uid://i6hkp7deyrnl" path="res://art/ui_theme.tres" id="3_qa5kh"]
+[ext_resource type="Texture2D" uid="uid://c8b4gpwuxoyvc" path="res://art/hangman_art/Hangman-0.png" id="4_3mtoo"]
+[ext_resource type="Texture2D" uid="uid://bjf8fmo4ycy0b" path="res://art/hangman_art/Hangman-1.png" id="5_qc8dk"]
+[ext_resource type="Texture2D" uid="uid://cgoy83r0m6mbg" path="res://art/hangman_art/Hangman-2.png" id="6_ngy74"]
+[ext_resource type="Texture2D" uid="uid://b7fgn1tod624p" path="res://art/hangman_art/Hangman-3.png" id="7_p0w4c"]
+[ext_resource type="Texture2D" uid="uid://davl7hwntw07m" path="res://art/hangman_art/Hangman-4.png" id="8_eag0d"]
+[ext_resource type="Texture2D" uid="uid://by2cajho8t2cy" path="res://art/hangman_art/Hangman-5.png" id="9_u4vnn"]
+[ext_resource type="Texture2D" uid="uid://canogqt3nryrn" path="res://art/hangman_art/Hangman-6.png" id="10_26ist"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g3ifd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_3mtoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_qc8dk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ngy74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_p0w4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_eag0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_u4vnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_26ist")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Game" type="Control"]
+custom_minimum_size = Vector2(1152, 648)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_sx2sd")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_xm1av")
+expand_mode = 5
+
+[node name="GameName" type="Label" parent="."]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 8.0
+offset_right = 440.0
+offset_bottom = 168.0
+theme = ExtResource("3_qa5kh")
+text = "Виселица"
+
+[node name="Mistakes" type="Label" parent="."]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 424.0
+offset_right = 1016.0
+offset_bottom = 584.0
+theme = ExtResource("3_qa5kh")
+theme_override_colors/font_color = Color(0.917647, 0, 0, 1)
+
+[node name="GameWord" type="Label" parent="."]
+layout_mode = 0
+offset_left = 424.0
+offset_top = 176.0
+offset_right = 997.0
+offset_bottom = 356.0
+theme = ExtResource("3_qa5kh")
+theme_override_font_sizes/font_size = 150
+horizontal_alignment = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(184, 272)
+sprite_frames = SubResource("SpriteFrames_g3ifd")
