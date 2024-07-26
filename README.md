@@ -10,42 +10,44 @@
 
 1. ☑ Guess the number
 
-2. 🔲 The Gallows
+2. 🔲 Hangman
 
-3. 🔲 Memorizing cards
+3. 🔲 Clicker
 
-4. 🔲 Snake
+4. 🔲 Memorizing cards
 
-5. 🔲 Tic-tac-toe
+5. 🔲 Snake
 
-6. 🔲 Simon
+6. 🔲 Tic-tac-toe
 
-7. 🔲 Visual Novel
+7. 🔲 Simon
 
-8. 🔲 Breakout
+8. 🔲 Visual Novel
 
-9. 🔲 Minesweeper
+9. 🔲 Breakout
 
-10. 🔲 Asteroids
+10. 🔲 Minesweeper
 
-11. 🔲 Platformer
+11. 🔲 Asteroids
 
-12. 🔲 Space Invaders
+12. 🔲 Platformer
 
-13. 🔲 Ping Pong
+13. 🔲 Space Invaders
 
-14. 🔲 Tower Defense
+14. 🔲 Ping Pong
 
-15. 🔲 Blackjack
+15. 🔲 Tower Defense
 
-16. 🔲 Flappy Bird
+16. 🔲 Blackjack
 
-17. 🔲 Puzzles
+17. 🔲 Flappy Bird
 
-18. 🔲 Races
+18. 🔲 Puzzles
 
-19. 🔲 Space Shooter
+19. 🔲 Races
 
-20. 🔲 RPG Battle
+20. 🔲 Space Shooter
 
-21. 🔲 Rouge-like
+21. 🔲 RPG Battle
+
+22. 🔲 Rouge-like
