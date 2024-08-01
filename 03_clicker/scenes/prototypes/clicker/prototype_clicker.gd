@@ -4,6 +4,9 @@ extends Control
 
 ## Reference to the label displaying the current amount of stardust created.
 @export var label : Label
+## View reference.
+@export var view : UserInterface.Views
+
 ## Current amount of stardust created.
 var stardust : int = 0
 

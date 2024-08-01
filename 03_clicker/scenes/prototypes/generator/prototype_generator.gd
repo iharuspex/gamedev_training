@@ -9,6 +9,8 @@ extends Control
 @export var button : Button
 ## Reference to the timer.
 @export var timer : Timer
+## View reference.
+@export var view : UserInterface.Views
 
 ## Current amount of stardust in storage.
 var stardust : int = 0
