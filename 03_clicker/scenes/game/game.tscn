@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://b3tnx6w3dtmw5"]
+
+[ext_resource type="Script" path="res://scenes/game/game.gd" id="1_ujogp"]
+[ext_resource type="PackedScene" uid="uid://yqsfuqvohjfe" path="res://scenes/UI/user_interface.tscn" id="2_mqoxj"]
+[ext_resource type="Script" path="res://scripts/handlers/handler_stardust.gd" id="2_rq5ry"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_ujogp")
+
+[node name="Handlers" type="Node" parent="."]
+
+[node name="Stardust" type="Node" parent="Handlers"]
+script = ExtResource("2_rq5ry")
+
+[node name="UserInterface" parent="." instance=ExtResource("2_mqoxj")]

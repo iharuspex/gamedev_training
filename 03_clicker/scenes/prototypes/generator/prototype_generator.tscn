@@ -1,8 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://b7xa2u8ta608x"]
+[gd_scene load_steps=3 format=3 uid="uid://b7xa2u8ta608x"]
 
 [ext_resource type="Script" path="res://scenes/prototypes/generator/prototype_generator.gd" id="1_xunev"]
+[ext_resource type="Script" path="res://scenes/UI/stardust_label.gd" id="2_4niej"]
 
-[node name="PrototypeGenerator" type="Control" node_paths=PackedStringArray("label", "button", "timer")]
+[node name="PrototypeGenerator" type="Control" node_paths=PackedStringArray("button", "timer")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -10,7 +11,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xunev")
-label = NodePath("Label")
 button = NodePath("Button")
 timer = NodePath("Timer")
 
@@ -41,6 +41,7 @@ theme_type_variation = &"HeaderLarge"
 text = "Stardust: <no_value>"
 horizontal_alignment = 1
 vertical_alignment = 1
+script = ExtResource("2_4niej")
 
 [node name="Timer" type="Timer" parent="."]
 

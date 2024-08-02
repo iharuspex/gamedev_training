@@ -1,9 +1,9 @@
-class_name PrototypeClicker
+class_name PrototypeUpgrades
 extends Control
-## A clicker prototype creating stardust.
+## Prototype of a view displaying upgrades.
 
 
-## Reference to the user interface
+## Reference to the user interface.
 @export var user_interface : UserInterface
 ## View reference.
 @export var view : UserInterface.Views
@@ -14,16 +14,6 @@ func _ready() -> void:
 	visible = false
 	user_interface.navigation_requested.connect(_on_navigation_requests)
 
-
-## Create 1 stardust.
-func create_stardust() -> void:
-	HandlerStardust.ref.create_stardust(1)
-
-
-## Triggered when the create stardust button is pressed.
-func _on_button_pressed() -> void:
-	create_stardust()
-	
 
 ## Watch for navigation requests and react accordingly.
 func _on_navigation_requests(requested_view : UserInterface.Views) -> void:
