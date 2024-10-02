@@ -32,12 +32,12 @@ func begin_generating_stardust() -> void:
 
 
 ## Triggered when the "begin generating" button is pressed.
-func _on_button_pressed():
+func _on_button_pressed() -> void:
 	begin_generating_stardust()
 
 
 ## Triggered when the timer times out.
-func _on_timer_timeout():
+func _on_timer_timeout() -> void:
 	create_stardust()
 
 

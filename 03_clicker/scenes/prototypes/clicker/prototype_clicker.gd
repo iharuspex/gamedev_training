@@ -17,7 +17,7 @@ func _ready() -> void:
 
 ## Create 1 stardust.
 func create_stardust() -> void:
-	HandlerStardust.ref.create_stardust(1)
+	HandlerStardust.ref.trigger_clicker()
 
 
 ## Triggered when the create stardust button is pressed.

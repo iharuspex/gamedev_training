@@ -39,3 +39,10 @@ func consume_stardust(quantity : int) -> Error:
 	
 	return Error.OK
 
+
+## Triggered by the clicker; creates stardust.
+func trigger_clicker() -> void:
+	var quantity : int = 1
+	quantity += Game.ref.data.up_01_level
+	
+	create_stardust(quantity)
